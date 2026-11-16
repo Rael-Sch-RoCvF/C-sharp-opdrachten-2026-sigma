@@ -9,6 +9,15 @@ namespace Opdrachten
 {
     public class Opdracht2
     {
+        public String[] rooms =
+        {
+            "Kitchen",
+            "Living Room",
+            "Bathroom",
+            "Bedroom",
+            "Hallway"
+        };
+
         void Start()
         {
             String[] Interaction =
@@ -34,12 +43,11 @@ namespace Opdrachten
                 switch (choice)
                 {
                     default:
-                        
+
                         break;
                 }
                 Console.ReadLine();
             }
         }
-    }
     }
 }

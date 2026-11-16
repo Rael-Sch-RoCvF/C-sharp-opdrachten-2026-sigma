@@ -10,7 +10,9 @@ namespace Opdrachten
     {
         static void Main(string[] args)
         {
-            new Opdracht1().Start();
+            //new Opdracht1().Start();
+            //new Opdracht2().Start();
+            new Opdracht3().Start();
         }
     }
 }
