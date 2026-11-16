@@ -1,0 +1,7 @@
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\bin\Debug\Opdrachten.exe.config
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\bin\Debug\Opdrachten.exe
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\bin\Debug\Opdrachten.pdb
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\obj\Debug\Opdrachten.csproj.AssemblyReference.cache
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\obj\Debug\Opdrachten.csproj.CoreCompileInputs.cache
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\obj\Debug\Opdrachten.exe
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Opdrachten\Opdrachten\obj\Debug\Opdrachten.pdb
