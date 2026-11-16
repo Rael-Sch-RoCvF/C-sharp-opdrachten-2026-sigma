@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Opdrachten
 {
-    internal class Opdracht1
+    public class Opdracht1
     {
         public void Start()
         {

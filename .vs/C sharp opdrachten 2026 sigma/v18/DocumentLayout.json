@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Opdrachten\\Opdrachten\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Opdrachten\\Opdrachten\\Opdracht1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Opdrachten\\Opdrachten\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
               "RelativeDocumentMoniker": "Opdrachten\\Opdrachten\\Program.cs",
               "ToolTip": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
               "RelativeToolTip": "Opdrachten\\Opdrachten\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T08:48:06.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Opdracht1.cs",
               "DocumentMoniker": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Opdracht1.cs",
               "RelativeDocumentMoniker": "Opdrachten\\Opdrachten\\Opdracht1.cs",
               "ToolTip": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Opdracht1.cs",
               "RelativeToolTip": "Opdrachten\\Opdrachten\\Opdracht1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T08:48:09.003Z",
               "EditorCaption": ""
