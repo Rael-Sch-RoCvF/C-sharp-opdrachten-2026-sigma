@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
+              "RelativeDocumentMoniker": "Opdrachten\\Opdrachten\\Program.cs",
+              "ToolTip": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
+              "RelativeToolTip": "Opdrachten\\Opdrachten\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-16T08:48:06.428Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -31,19 +44,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-16T08:48:09.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
-              "RelativeDocumentMoniker": "Opdrachten\\Opdrachten\\Program.cs",
-              "ToolTip": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Program.cs",
-              "RelativeToolTip": "Opdrachten\\Opdrachten\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T08:48:06.428Z",
               "EditorCaption": ""
             }
           ]
