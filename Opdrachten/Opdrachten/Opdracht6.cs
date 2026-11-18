@@ -10,6 +10,7 @@ namespace Opdrachten
     {
         public void Start()
         {
+            bool guessed = false;
             int guesses = 0;
             Console.WriteLine("What do you want to be the max number?");
             int Max = Convert.ToInt32(Console.ReadLine());
@@ -18,7 +19,7 @@ namespace Opdrachten
 
             Console.WriteLine($"I have picked a number between 1 and {Max}, can you guess it?");
 
-            while (true)
+            while (!guessed)
             {
                 int guess = Convert.ToInt32(Console.ReadLine());
                 guesses++;
@@ -27,6 +28,7 @@ namespace Opdrachten
                 {
                     Console.WriteLine("yay you guessed it good job");
                     Console.WriteLine($"It took you {guesses} guesses!");
+                    guessed = true;
                 }
                 else if (guess < number)
                 {

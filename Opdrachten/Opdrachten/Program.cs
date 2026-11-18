@@ -14,8 +14,9 @@ namespace Opdrachten
             //new Opdracht2().Start();
             //new Opdracht3().Start();
             //new Opdracht4().Start();
-            new Opdracht5().Start();
+            //new Opdracht5().Start();
             //new Opdracht6().Start();
+            new Opdracht7().Start();
         }
     }
 }

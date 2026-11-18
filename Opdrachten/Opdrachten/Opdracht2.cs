@@ -24,7 +24,7 @@ namespace Opdrachten
             {
             "Toilet",
             "Upstairs",
-            "Kitchen"
+            "Return"
             };
 
             void InteractionPrompts()

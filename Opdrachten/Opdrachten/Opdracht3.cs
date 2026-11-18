@@ -25,8 +25,17 @@ namespace Opdrachten
             String weather = Console.ReadLine();
 
             Console.WriteLine("What temperature is it?");
-            int temperature = Convert.ToInt32(Console.ReadLine());
+            String temp = Console.ReadLine();
+
+            while (!int.TryParse(temp, out int t))
+            {
+                Console.WriteLine("Please enter a valid number for the temperature.");
+                temp = Console.ReadLine();
+            }
             
+            int temperature = Convert.ToInt32(temp);
+
+
             if (temperature > 50)
             {
                 Console.WriteLine("Dude it cannot be that hot but alright");
@@ -49,7 +58,7 @@ namespace Opdrachten
                 case "Rainy":
                     if (temperature > 20)
                     {
-                        Console.WriteLine("That's some odd weather, go out to see if you can spot a rainbow!");
+                        Console.WriteLine("That's some odd weather, go out to see if you can spot a rainbow! (do bring an umbrella)");
                     }
                     else
                     {
