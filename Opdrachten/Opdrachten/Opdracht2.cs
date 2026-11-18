@@ -9,7 +9,7 @@ namespace Opdrachten
 {
     public class Opdracht2
     {
-        public String[] rooms =
+        public string[] rooms =
         {
             "Kitchen",
             "Living Room",
@@ -20,7 +20,7 @@ namespace Opdrachten
 
         void Start()
         {
-            String[] Interaction =
+            string[] Interaction =
             {
             "Toilet",
             "Upstairs",

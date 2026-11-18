@@ -10,7 +10,7 @@ namespace Opdrachten
     {
         public void Start()
         {
-            String[] weathers =
+            string[] weathers =
             {
                 "Sunny",
                 "Rainy",
@@ -22,10 +22,10 @@ namespace Opdrachten
             {
                 Console.WriteLine($"- {weathers[i]}");
             }
-            String weather = Console.ReadLine();
+            string weather = Console.ReadLine();
 
             Console.WriteLine("What temperature is it?");
-            String temp = Console.ReadLine();
+            string temp = Console.ReadLine();
 
             while (!int.TryParse(temp, out int t))
             {

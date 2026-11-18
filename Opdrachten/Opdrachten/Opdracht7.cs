@@ -13,7 +13,7 @@ namespace Opdrachten
         {
             Random rnd = new Random();
             Console.WriteLine("How many rolls?");
-            String testmax = Console.ReadLine();
+            string testmax = Console.ReadLine();
             float[] nums = new float[6];
 
             while (!int.TryParse(testmax, out int Imax))
@@ -43,7 +43,7 @@ namespace Opdrachten
                 double perc = nums[i] / max * 100;
                 Console.WriteLine($"{i + 1}: {nums[i]} | " + $"{perc:F1}%");
             }
-
+            
             Console.WriteLine($"Highest: {highest[0]} (rolled {highest[1]} times)");
 
         }
