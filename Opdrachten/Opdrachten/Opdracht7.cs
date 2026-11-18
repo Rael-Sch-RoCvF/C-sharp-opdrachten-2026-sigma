@@ -30,15 +30,21 @@ namespace Opdrachten
                 nums[number]++;
             }
 
-            int highest = 0;
+            float[] highest = {0, 0};
 
             for (int i = 0; i < nums.Length; i++)
             {
+                if (nums[i] > highest[1])
+                {
+                    highest[0] = i + 1;
+                    highest[1] = nums[i];
+                }
+
                 double perc = nums[i] / max * 100;
                 Console.WriteLine($"{i + 1}: {nums[i]} | " + $"{perc:F1}%");
             }
 
-            Console.WriteLine($"Highest: {highest}");
+            Console.WriteLine($"Highest: {highest[0]} (rolled {highest[1]} times)");
 
         }
     }

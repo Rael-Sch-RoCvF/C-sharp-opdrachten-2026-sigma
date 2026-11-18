@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{51A51E26-16EB-4A6C-9239-9ED695330953}|Opdrachten\\Opdrachten.csproj|solutionrelative:opdrachten\\opdracht6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51A51E26-16EB-4A6C-9239-9ED695330953}|Opdrachten\\Opdrachten.csproj|c:\\users\\lanxe\\documents\\github\\c sharp opdrachten 2026 sigma\\opdrachten\\opdrachten\\opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51A51E26-16EB-4A6C-9239-9ED695330953}|Opdrachten\\Opdrachten.csproj|C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\opdrachten\\opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51A51E26-16EB-4A6C-9239-9ED695330953}|Opdrachten\\Opdrachten.csproj|solutionrelative:opdrachten\\opdracht3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Opdrachten\\Opdracht7.cs",
               "ToolTip": "C:\\Users\\lanxe\\Documents\\GitHub\\C sharp opdrachten 2026 sigma\\Opdrachten\\Opdrachten\\Opdracht7.cs",
               "RelativeToolTip": "Opdrachten\\Opdracht7.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswCAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswC4AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-18T10:07:14.996Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Opdrachten\\Opdracht6.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T12:15:38.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T12:15:38.47Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Opdrachten\\Opdracht5.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T12:23:28.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T12:23:28.891Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Opdrachten\\Opdracht3.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwCgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T11:55:07.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T11:55:07.086Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Opdrachten\\Opdracht2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T09:22:29.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T09:22:29.15Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Opdrachten\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-16T08:41:04.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-16T08:41:04.636Z"
             }
           ]
         }
