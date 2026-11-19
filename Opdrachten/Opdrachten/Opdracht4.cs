@@ -26,24 +26,17 @@ namespace Opdrachten
 
                 if (int.TryParse(sYear, out year) && int.TryParse(sMonth, out month) && int.TryParse(sDay, out day))
                 {
-                    bool valuesCorrect = true;
                     year = Convert.ToInt32(sYear);
                     month = Convert.ToInt32(sMonth);
                     day = Convert.ToInt32(sDay);
 
-                    valuesCorrect = !(day > 31 || day < 1) && !(month > 12 || month < 1);
+                    bool valuesCorrect = !(day > 31 || day < 1) && !(month > 12 || month < 1);
 
                     Console.WriteLine(" ");
-                    if (valuesCorrect)
-                    {
-                        correct = true;
-                    }
-                    else
-                    {
-                        Console.WriteLine("One of the types was invalid, please try again");
-                        correct = false;
-                    }
-                }else
+                    correct = valuesCorrect;
+                    Console.WriteLine((correct ? "Age verified correctly" : "age doesn't match up, try again"));
+                }
+                else
                 {
                     Console.WriteLine("One of the values was invalid, please try again");
                     correct = false;
@@ -53,20 +46,10 @@ namespace Opdrachten
             int age = DateTime.Today.Subtract(new DateTime(year, month, day)).Days / 365;
             Console.WriteLine($"You are {age} years old.");
             Console.WriteLine(" ");
-            if (age >= 18)
+            if (IsAnAdult(age))
             {
                 Console.WriteLine("and you are allowed to vote");
-                if (age > 18 && age < 25)
-                {
-                    Console.WriteLine("Extra tip: You should wear some casual clothes.");
-                }else if (age >= 25 && age <= 40)
-                {
-                    Console.WriteLine("Extra tip: You could wear some more business oriented clothes.");
-                }
-                else // above 40
-                {
-                    Console.WriteLine("Extra tip: You could look good in formal outfits");
-                }
+                AgeTips(age);
             }
             else
             {
@@ -74,5 +57,27 @@ namespace Opdrachten
             }
 
         }
+
+        bool IsAnAdult(int age)
+        {
+            return (age > 18);
+        }
+
+        void AgeTips(int age)
+        {
+            if (age > 18 && age < 25)
+            {
+                Console.WriteLine("Extra tip: You should wear some casual clothes.");
+            }
+            else if (age >= 25 && age <= 40)
+            {
+                Console.WriteLine("Extra tip: You could wear some more business oriented clothes.");
+            }
+            else // above 40
+            {
+                Console.WriteLine("Extra tip: You could look good in formal outfits");
+            }
+        }
+
     }
 }
