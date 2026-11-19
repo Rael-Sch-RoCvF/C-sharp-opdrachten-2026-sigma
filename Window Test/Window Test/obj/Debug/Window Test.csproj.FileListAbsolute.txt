@@ -1,0 +1,10 @@
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\bin\Debug\Window Test.exe.config
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\bin\Debug\Window Test.exe
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\bin\Debug\Window Test.pdb
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window Test.csproj.AssemblyReference.cache
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window_Test.Properties.Resources.resources
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window Test.csproj.GenerateResource.cache
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window Test.csproj.CoreCompileInputs.cache
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window Test.exe
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window Test.pdb
+C:\Users\lanxe\Documents\GitHub\C sharp opdrachten 2026 sigma\Window Test\Window Test\obj\Debug\Window_Test.Form1.resources
