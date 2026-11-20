@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Opdrachten
 {
 
-    public class Player
+    class Player
     {
         string name;
         int level;
