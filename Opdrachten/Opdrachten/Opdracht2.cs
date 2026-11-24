@@ -138,10 +138,12 @@ namespace Opdrachten
 
                         Console.WriteLine("");
                         Console.WriteLine("Choose where you want to go: ");
-                        string roomChoice = Console.ReadLine();
-                        lastRoom = currentRoom;
+                        string roomChoice = Console.ReadLine().ToLower();
+                        char.ToUpper(roomChoice[1]); // FIX THE UPPERCASE WHEN OPENING THIS AGAIN
+                        Console.WriteLine(roomChoice);
                         if (availableRooms.IndexOf(roomChoice) != -1 && roomChoice != "None")
                         {
+                            lastRoom = currentRoom;
                             currentRoomID = Array.IndexOf(roomsID, roomChoice);
                             currentRoom = roomChoice;
                         }

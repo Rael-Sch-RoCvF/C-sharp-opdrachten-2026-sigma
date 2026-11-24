@@ -11,7 +11,7 @@ namespace Opdrachten
         static void Main(string[] args)
         {
             //new Opdracht1().Start();
-            //new Opdracht2().Start();
+            new Opdracht2().Start();
             //new Opdracht3().Start();
             //new Opdracht4().Start();
             //new Opdracht5().Start();
@@ -19,7 +19,8 @@ namespace Opdrachten
             //new Opdracht7().Start();
             //new Opdracht8().Start();
             //new Opdracht9().Start();
-            new Opdracht10().Start();
+            //new Opdracht10().Start();
+            //new ListsOfzo().Start();
         }
     }
 }

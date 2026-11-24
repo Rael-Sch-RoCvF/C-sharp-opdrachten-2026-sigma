@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ListsOfzo.cs" />
     <Compile Include="Opdracht1.cs" />
     <Compile Include="Opdracht10.cs" />
     <Compile Include="Opdracht2.cs" />

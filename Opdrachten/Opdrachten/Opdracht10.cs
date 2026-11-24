@@ -11,26 +11,37 @@ namespace Opdrachten
     {
         public void Start()
         {
+            Console.WriteLine("Enter a word: ");
             string word = Console.ReadLine();
             word = word.ToLower();
-            string[] worddata = new string[word.Length];
+            char[] worddata = new char[word.Length];
 
             for (int i = 0; i < word.Length; i++)
             {
                 Console.WriteLine(word[i]);
-                worddata[i] = word[i].ToString();
+                worddata[i] = word[i];
             }
 
             string reconstruct = "";
+            Array.Reverse(worddata);
+
             for (int i = 0; i < worddata.Length; i++)
             {
-                reconstruct += worddata[worddata.Length - 1 - i];
+                if (i == 0)
+                {
+                    reconstruct += char.ToUpper(worddata[i]);
+                }
+                else
+                {
+                    reconstruct += worddata[i];
+                }
+                
             }
 
             Console.WriteLine(reconstruct);
             Console.WriteLine("");
 
-            if (word == reconstruct)
+            if (word.ToLower() == reconstruct.ToLower())
             {
                 Console.WriteLine("het is een palindroom!");
             }
