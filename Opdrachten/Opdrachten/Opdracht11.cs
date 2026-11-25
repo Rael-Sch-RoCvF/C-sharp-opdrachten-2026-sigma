@@ -65,7 +65,7 @@ namespace Opdrachten
                 }
             }
 
-            if (reply == answer)
+            if (GetAnswer(answer, reply))
             {
                 _points++;
                 Console.WriteLine("Correct");
@@ -80,6 +80,11 @@ namespace Opdrachten
         public int GetPoints()
         {
             return _points;
+        }
+
+        public bool GetAnswer(int answer, int reply)
+        {
+            return reply == answer;
         }
     }
     public class Opdracht11
