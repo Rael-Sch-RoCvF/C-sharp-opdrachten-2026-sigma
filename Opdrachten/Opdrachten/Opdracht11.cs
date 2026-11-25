@@ -25,8 +25,8 @@ namespace Opdrachten
             Random rnd = new Random();
             Random nums = new Random();
             int questType = (_type == 0) ? rnd.Next(1, 5) : _type;
-            int[] questionnums = { nums.Next(_min, _max), nums.Next(_min, _max) };
-            int answer = 0;
+            float[] questionnums = { nums.Next(_min, _max), nums.Next(_min, _max) };
+            float answer = 0;
 
             switch (questType)
             {
@@ -53,14 +53,14 @@ namespace Opdrachten
             }
 
             bool process = true;
-            int reply = 0;
+            float reply = 0;
 
             while (process)
             {
                 string testreply = Console.ReadLine();
-                if (int.TryParse(testreply, out int res))
+                if (float.TryParse(testreply, out float res))
                 {
-                    reply = Convert.ToInt32(testreply);
+                    reply = float.Parse(testreply);
                     process = false;
                 }
             }
@@ -82,7 +82,7 @@ namespace Opdrachten
             return _points;
         }
 
-        public bool GetAnswer(int answer, int reply)
+        public bool GetAnswer(double answer, double reply)
         {
             return reply == answer;
         }
