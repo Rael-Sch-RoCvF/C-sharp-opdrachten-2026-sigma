@@ -8,29 +8,29 @@ namespace Opdrachten
 {
     class Weapon
     {
-        string name;
-        int damage;
-        string type;
+        private string _name;
+        private int _damage;
+        private string _type;
 
         public Weapon(string Name, int Damage, string Type)
         {
-            name = Name;
-            damage = Damage;
-            type = Type;
+            _name = Name;
+            _damage = Damage;
+            _type = Type;
         }
 
         public void ShowStats()
         {
             Console.WriteLine("-------------------------------");
-            Console.WriteLine($"Weapon: {name}");
-            Console.WriteLine($"Damage: {damage}");
-            Console.WriteLine($"Type: {type}");
+            Console.WriteLine($"Weapon: {_name}");
+            Console.WriteLine($"Damage: {_damage}");
+            Console.WriteLine($"Type: {_type}");
             Console.WriteLine("-------------------------------");
         }
         public void UpgradeItem(int amount)
         {
-            Console.WriteLine($"{name}'s damage increased by {amount}!");
-            damage += amount;
+            Console.WriteLine($"{_name}'s damage increased by {amount}!");
+            _damage += amount;
         }
 
     }

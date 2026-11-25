@@ -9,22 +9,22 @@ namespace Opdrachten
 
     class Player
     {
-        string name;
-        int level;
-        int lives;
+        private string _name;
+        private int _level;
+        private int _lives;
 
         public Player(string Name, int Level, int Lives)
         {
-            name = Name;
-            level = Level;
-            lives = Lives;
-            Console.WriteLine($"Player {name} has been created, Level: {level}");
+            _name = Name;
+            _level = Level;
+            _lives = Lives;
+            Console.WriteLine($"Player {_name} has been created, Level: {_level}");
         }
         public void ShowStats()
         {
             Console.WriteLine("-------------------------------");
-            Console.WriteLine($"{name} is Level: {level}");
-            Console.WriteLine($"{lives} lives left");
+            Console.WriteLine($"{_name} is Level: {_level}");
+            Console.WriteLine($"{_lives} lives left");
             Console.WriteLine("-------------------------------");
         }
     }

@@ -36,9 +36,9 @@ namespace Opdrachten
     {
         public string[,] rooms = new string[6, 4]
         {
-            {"Hallway", "Kitchen", "Living Room", "Upstairs hallway"},
-            {"Kitchen", "Hallway", "Living Room", "None"},
-            {"Living Room", "Hallway", "Living Room", "Kitchen"},
+            {"Hallway", "Kitchen", "Living room", "Upstairs hallway"},
+            {"Kitchen", "Hallway", "Living room", "None"},
+            {"Living room", "Hallway", "Living room", "Kitchen"},
             {"Bathroom", "Hallway", "Bedroom", "None"},
             {"Bedroom", "Upstairs hallway", "Bathroom", "None"},
             {"Upstairs hallway", "Hallway", "Bedroom", "Bathroom"}
@@ -48,7 +48,7 @@ namespace Opdrachten
         {
             "Hallway",
             "Kitchen",
-            "Living Room",
+            "Living room",
             "Bathroom",
             "Bedroom",
             "Upstairs hallway"
@@ -75,7 +75,8 @@ namespace Opdrachten
 
             void InteractionPrompts()
             {
-                for (int i = 0; i < Interaction.Length; i++)
+                int interactionamount = (currentRoomID == 0) ? 4 : 3;
+                for (int i = 0; i < interactionamount; i++)
                 {
                     Console.WriteLine($"{i + 1}: {Interaction[i]}");
                 }
@@ -100,7 +101,7 @@ namespace Opdrachten
                     Interaction[3] = "";
                 }
 
-                Console.WriteLine("");
+                Console.WriteLine("----------------------------------------------");
                 Console.WriteLine($"Current room: {currentRoom} ({currentRoomID})");
                 Console.WriteLine("Choose what you want to do: ");
                 InteractionPrompts();
@@ -113,20 +114,24 @@ namespace Opdrachten
                             Console.WriteLine("You Collected the key:");
                             key.GetInfo();
                         }
-                        else
-                        {
-                            Console.WriteLine("There are no items in this room");
-                        }
 
-                        if (currentRoom == rooms[1, 0])
+                        switch (currentRoomID)
                         {
-                            Console.WriteLine("You tried to grab a knife but I (the game developer) am evil so you kinda accidentally stabbed yourself and died");
-                            return;
-                        }
-                        if (currentRoom == rooms[3, 0])
-                        {
-                            Console.WriteLine("You tried to find something in the baththub but a high pressured water stream shot you and you died (fuck you)");
-                            return;
+                            case 1:
+                                Console.WriteLine("You tried to grab a knife but I (the game developer) am evil so you kinda accidentally stabbed yourself and died");
+                                return;
+
+                            case 2:
+                                Console.WriteLine("An alien jumps out of the TV and zaps you causing you to implode (c'mon you could've seen this coming)");
+                                return;
+
+                            case 3:
+                                Console.WriteLine("You tried to find something in the baththub but a high pressured water stream shot you and you died (fuck you)");
+                                return;
+
+                            default:
+                                Console.WriteLine(" ");
+                                break;
                         }
                         break;
 
@@ -138,9 +143,19 @@ namespace Opdrachten
 
                         Console.WriteLine("");
                         Console.WriteLine("Choose where you want to go: ");
-                        string roomChoice = Console.ReadLine().ToLower();
-                        char.ToUpper(roomChoice[1]); // FIX THE UPPERCASE WHEN OPENING THIS AGAIN
-                        Console.WriteLine(roomChoice);
+                        StringBuilder rmc = new StringBuilder(Console.ReadLine());
+                        for (int i = 0; i < rmc.Length; i++)
+                        {
+                            if (i == 0)
+                            {
+                                rmc[i] = char.ToUpper(rmc[i]);
+                            }
+                            else
+                            {
+                                rmc[i] = char.ToLower(rmc[i]);
+                            }
+                        }
+                        string roomChoice = rmc.ToString();
                         if (availableRooms.IndexOf(roomChoice) != -1 && roomChoice != "None")
                         {
                             lastRoom = currentRoom;
